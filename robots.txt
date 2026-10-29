@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dankkoom187.github.io/mosalsk-nikolsky/sitemap.xml

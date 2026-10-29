@@ -1,0 +1,74 @@
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="index.html">Главная</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Расписание</span>
+    </nav>
+    <h1 class="page-hero__title">Расписание богослужений</h1>
+    <p class="page-hero__lead">Литургия, всенощное бдение, молебны и панихиды. Исповедь и часы перед Литургией начинаются в 8:50.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="callout callout--gold">
+      <p class="callout__title">Демонстрационное расписание — {{SCHEDULE_MONTH}}</p>
+      <p>Это пример структуры и вёрстки. Актуальное расписание на текущий месяц публикуется в группе ВКонтакте и в свечной лавке. Перед публикацией данные нужно заменить на реальные.</p>
+    </div>
+
+    <div class="today-card" data-today-card>
+      <div>
+        <p class="today-card__label">Сегодня в соборе</p>
+        <p class="today-card__value" data-today-value>Демонстрационное расписание на сентябрь 2026</p>
+        <p class="today-card__note" data-today-note>Актуальное расписание — в группе ВКонтакте и по телефону.</p>
+      </div>
+      <a class="btn btn--primary btn--small" href="{{VK}}" target="_blank" rel="noopener noreferrer">Смотреть в ВК</a>
+    </div>
+
+    <div class="schedule-toolbar">
+      <button class="btn btn--ghost" type="button" data-print>Печать</button>
+      <a class="btn btn--ghost" href="schedule.ics" download>Скачать .ics</a>
+      <a class="btn btn--primary" href="{{VK}}" target="_blank" rel="noopener noreferrer">Актуальное расписание в ВК</a>
+    </div>
+
+    <div class="schedule-table-wrap">
+      <h2 class="sr-only">Расписание богослужений на сентябрь 2026</h2>
+      <table class="schedule-table">
+        <caption class="sr-only">Расписание богослужений на сентябрь 2026</caption>
+        <thead>
+          <tr>
+            <th scope="col">Дата</th>
+            <th scope="col">Праздник</th>
+            <th scope="col">Богослужение</th>
+            <th scope="col">Время</th>
+            <th scope="col">Место</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{SCHEDULE_TABLE}}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="schedule-notes">
+      <div class="callout">
+        <p class="callout__title">Что важно знать</p>
+        <ul class="list-check">
+          <li>Храм и часовня мученицы Ларисы Готфской открыты ежедневно с 9:00 до 13:00.</li>
+          <li>Исповедь и часы перед Литургией начинаются в 8:50.</li>
+          <li>Панихиды в Борисоглебском храме на старом кладбище совершаются по отдельным субботам в 11:00.</li>
+          <li>Требы в храме не тарифицируются и совершаются за пожертвование.</li>
+          <li>Записки о здравии и упокоении воинов принимаются бесплатно, в том числе на сорокоуст.</li>
+        </ul>
+      </div>
+
+      <div class="callout callout--green">
+        <p class="callout__title">Как подать записку</p>
+        <p>Записки можно подать в свечной лавке при храме. Если вы не знаете, как записать имена, спросите у служителя — помогут.</p>
+        <p><a class="link-arrow link-arrow--light" href="{{PHONE_HREF}}">Позвонить: {{PHONE}}</a></p>
+        <p class="small">Онлайн-записки пока не подключены. Уточните возможность подачи в свечной лавке или по телефону.</p>
+      </div>
+    </div>
+  </div>
+</section>

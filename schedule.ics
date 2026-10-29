@@ -1,0 +1,260 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mosalsk Nikolsky Sobor//Prototype//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Свято-Никольский собор — сентябрь 2026
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:2026-09-01-1000-1@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260901T070000Z
+DTEND:20260901T090000Z
+SUMMARY:Молебен с акафистом — Донской иконы Божией Матери
+DESCRIPTION:Донской иконы Божией Матери
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-1000-2@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260903T070000Z
+DTEND:20260903T090000Z
+SUMMARY:Молебен с акафистом свт. Николаю
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-04-0900-3@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260904T060000Z
+DTEND:20260904T080000Z
+SUMMARY:Божественная литургия — Грузинской иконы Божией Матери. Престольный праздник
+DESCRIPTION:Грузинской иконы Божией Матери. Престольный праздник
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-1000-4@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260905T070000Z
+DTEND:20260905T090000Z
+SUMMARY:Панихида
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-1700-5@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260905T140000Z
+DTEND:20260905T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-06-0900-6@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260906T060000Z
+DTEND:20260906T080000Z
+SUMMARY:Божественная литургия\, молебен — Неделя 14-я по Пятидесятнице. Собор Московских святых
+DESCRIPTION:Неделя 14-я по Пятидесятнице. Собор Московских святых
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-0900-7@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260908T060000Z
+DTEND:20260908T080000Z
+SUMMARY:Божественная литургия — Владимирской иконы Пресвятой Богородицы\, мчч. Адриана и Наталии
+DESCRIPTION:Владимирской иконы Пресвятой Богородицы\, мчч. Адриана и Наталии
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-1000-8@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260910T070000Z
+DTEND:20260910T090000Z
+SUMMARY:Молебен с акафистом свт. Николаю
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-1700-9@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260910T140000Z
+DTEND:20260910T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-11-0900-10@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260911T060000Z
+DTEND:20260911T080000Z
+SUMMARY:Божественная литургия — Усекновение главы Пророка\, Предтечи и Крестителя Господня Иоанна
+DESCRIPTION:Усекновение главы Пророка\, Предтечи и Крестителя Господня Иоанна
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-1000-11@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260912T070000Z
+DTEND:20260912T090000Z
+SUMMARY:Панихида — Блгв. кн. Даниила Московского\, блгв. кн. Александра Невского
+DESCRIPTION:Блгв. кн. Даниила Московского\, блгв. кн. Александра Невского
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-1030-12@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260912T073000Z
+DTEND:20260912T093000Z
+SUMMARY:Молебен
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-1700-13@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260912T140000Z
+DTEND:20260912T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-13-0900-14@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260913T060000Z
+DTEND:20260913T080000Z
+SUMMARY:Божественная литургия\, молебен — Неделя 15-я по Пятидесятнице. Перенесение мощей блгв. кн. Петра и кн. Февронии\, Муромских чудотворцев
+DESCRIPTION:Неделя 15-я по Пятидесятнице. Перенесение мощей блгв. кн. Петра и кн. Февронии\, Муромских чудотворцев
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-0900-15@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260915T060000Z
+DTEND:20260915T080000Z
+SUMMARY:Божественная литургия — Калужской иконы Божией Матери. Прпп. Антония и Феодосия Киево-Печерских
+DESCRIPTION:Калужской иконы Божией Матери. Прпп. Антония и Феодосия Киево-Печерских
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-1000-16@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260917T070000Z
+DTEND:20260917T090000Z
+SUMMARY:Молебен с акафистом — Иконы Божией Матери «Неопалимая Купина»
+DESCRIPTION:Иконы Божией Матери «Неопалимая Купина»
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-1000-17@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260919T070000Z
+DTEND:20260919T090000Z
+SUMMARY:Панихида — Воспоминание чуда Архистратига Михаила\, бывшего в Хонех
+DESCRIPTION:Воспоминание чуда Архистратига Михаила\, бывшего в Хонех
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-1000-18@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260919T070000Z
+DTEND:20260919T090000Z
+SUMMARY:Молебен
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-1700-19@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260919T140000Z
+DTEND:20260919T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-0900-20@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260920T060000Z
+DTEND:20260920T080000Z
+SUMMARY:Божественная литургия\, молебен — Неделя 16-я по Пятидесятнице. Прп. Макария Оптинского
+DESCRIPTION:Неделя 16-я по Пятидесятнице. Прп. Макария Оптинского
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-1700-21@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260920T140000Z
+DTEND:20260920T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-0900-22@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260921T060000Z
+DTEND:20260921T080000Z
+SUMMARY:Божественная литургия — Рождество Пресвятой Владычицы нашей Богородицы и Приснодевы Марии
+DESCRIPTION:Рождество Пресвятой Владычицы нашей Богородицы и Приснодевы Марии
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-1000-23@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260924T070000Z
+DTEND:20260924T090000Z
+SUMMARY:Молебен с акафистом свт. Николаю
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-26-0900-24@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260926T060000Z
+DTEND:20260926T080000Z
+SUMMARY:Божественная литургия пасхальным чином\, крестный ход — Память обновления храма Воскресения Христова в Иерусалиме (Воскресение словущее)
+DESCRIPTION:Память обновления храма Воскресения Христова в Иерусалиме (Воскресение словущее)
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-26-1700-25@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260926T140000Z
+DTEND:20260926T160000Z
+SUMMARY:Всенощное бдение с выносом Креста Господня
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-27-0900-26@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260927T060000Z
+DTEND:20260927T080000Z
+SUMMARY:Божественная литургия\, молебен — Неделя 17-я по Пятидесятнице. Воздвижение Честного и Животворящего Креста Господня. Свт. Иоанна Златоуста
+DESCRIPTION:Неделя 17-я по Пятидесятнице. Воздвижение Честного и Животворящего Креста Господня. Свт. Иоанна Златоуста
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-27-1700-27@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260927T140000Z
+DTEND:20260927T160000Z
+SUMMARY:Всенощное бдение
+DESCRIPTION:—
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-1000-28@mosalsk-nikolsky
+DTSTAMP:20261029T092603Z
+DTSTART:20260930T070000Z
+DTEND:20260930T090000Z
+SUMMARY:Молебен с акафистом — Мцц. Веры\, Надежды\, Любови и матери их Софии
+DESCRIPTION:Мцц. Веры\, Надежды\, Любови и матери их Софии
+LOCATION:Свято-Никольский собор\, Мосальск\, ул. Советская\, 15А
+END:VEVENT
+END:VCALENDAR

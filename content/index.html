@@ -1,0 +1,272 @@
+<section class="hero">
+  <div class="hero__media" aria-hidden="true">
+    <picture>
+      <source type="image/avif" srcset="assets/img/hero-800.avif 800w, assets/img/hero-1200.avif 1200w, assets/img/hero-1600.avif 1600w, assets/img/hero-1920.avif 1920w" sizes="100vw">
+      <source type="image/webp" srcset="assets/img/hero-800.webp 800w, assets/img/hero-1200.webp 1200w, assets/img/hero-1600.webp 1600w, assets/img/hero-1920.webp 1920w" sizes="100vw">
+      <img class="hero__img" src="assets/img/hero-1600.jpg" srcset="assets/img/hero-800.jpg 800w, assets/img/hero-1200.jpg 1200w, assets/img/hero-1600.jpg 1600w, assets/img/hero-1920.jpg 1920w" sizes="100vw" alt="Свято-Никольский собор в Мосальске: жёлтое здание с белыми колоннами, тёмным куполом и высокой колокольней" width="1600" height="1067" fetchpriority="high">
+    </picture>
+  </div>
+
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Мосальск · Калужская область</p>
+      <h1 class="hero__title">Свято-Никольский собор в Мосальске</h1>
+      <p class="hero__lead">Исторический собор в центре города. Здесь совершаются богослужения, хранятся святыни и идёт приходская жизнь.</p>
+      <div class="hero__actions">
+        <a class="btn btn--gold" href="raspisanie.html">Расписание богослужений</a>
+        <a class="btn btn--ghost-light" href="kontakty.html">Как добраться</a>
+      </div>
+      <ul class="hero__meta">
+        <li>{{ADDRESS_SHORT}}</li>
+        <li>4,9 на Яндекс Картах</li>
+      </ul>
+    </div>
+
+    <aside class="hero__card" aria-label="Ближайшее богослужение">
+      <p class="hero__card-label">Ближайшее богослужение</p>
+      <p class="hero__card-date" data-next-date>Ближайшее воскресенье</p>
+      <p class="hero__card-service" data-next-service>Божественная литургия</p>
+      <p class="hero__card-time" data-next-time>9:00</p>
+      <a class="link-arrow link-arrow--light" href="raspisanie.html">Всё расписание</a>
+      <p class="hero__card-note">Демонстрационное расписание — сентябрь 2026</p>
+    </aside>
+  </div>
+</section>
+
+<section class="today-band" aria-label="Сегодня в соборе">
+  <div class="container today-band__grid">
+    <div class="today-band__item">
+      <p class="today-band__label">Ближайшее богослужение</p>
+      <p class="today-band__value" data-next-service>Воскресенье, 9:00 — Литургия</p>
+      <p class="today-band__note" data-next-note>Точное время — в расписании и группе ВКонтакте</p>
+    </div>
+    <div class="today-band__item">
+      <p class="today-band__label">Храм открыт</p>
+      <p class="today-band__value">Ежедневно, 9:00–13:00</p>
+      <p class="today-band__note">Богослужения — по расписанию</p>
+    </div>
+    <div class="today-band__item">
+      <p class="today-band__label">Телефон</p>
+      <p class="today-band__value"><a href="{{PHONE_HREF}}">{{PHONE}}</a></p>
+      <p class="today-band__note">Иерей Владислав Береговой</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="split">
+      <figure class="figure">
+        <picture>
+          <source type="image/avif" srcset="assets/img/about-400.avif 400w, assets/img/about-720.avif 720w" sizes="(min-width: 900px) 42vw, 100vw">
+          <source type="image/webp" srcset="assets/img/about-400.webp 400w, assets/img/about-720.webp 720w" sizes="(min-width: 900px) 42vw, 100vw">
+          <img src="assets/img/about-720.jpg" srcset="assets/img/about-400.jpg 400w, assets/img/about-720.jpg 720w" sizes="(min-width: 900px) 42vw, 100vw" alt="Свято-Никольский собор летом, вид с площади" width="720" height="960" loading="lazy">
+        </picture>
+        <figcaption>Свято-Никольский собор. Фото: Сержант Пеппер, CC BY-SA 3.0, Wikimedia Commons; изменено: кадрирование.</figcaption>
+      </figure>
+
+      <div class="split__body">
+        <p class="eyebrow">О соборе</p>
+        <h2 class="section__title">Собор в центре Мосальска</h2>
+        <div class="prose">
+          <p>Свято-Никольский собор — памятник архитектуры классицизма и один из символов города. Каменный собор заложен в 1806 году на средства купца и мецената Антона Хлюстина и освящён в 1818 году.</p>
+          <p>В советские годы храм закрыли и разобрали; уцелела колокольня. В 1999–2001 годах собор воссоздали по историческому проекту, а внутреннее убранство завершили к 2021 году.</p>
+        </div>
+        <ul class="facts">
+          <li class="fact"><span class="fact__num">1628</span><span class="fact__label">первое упоминание</span></li>
+          <li class="fact"><span class="fact__num">1806–1818</span><span class="fact__label">каменный собор</span></li>
+          <li class="fact"><span class="fact__num">1999–2001</span><span class="fact__label">воссоздание</span></li>
+        </ul>
+        <a class="link-arrow" href="hram.html">История собора</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper" id="svyatyni">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow">Святыни</p>
+      <h2 class="section__title">Святыни собора</h2>
+      <p class="section__lead">В соборе находятся частицы мощей святителя Николая Чудотворца, святителя Луки Крымского, святителя Димитрия Ростовского, апостолов Андрея Первозванного и Матфея, преподобного Серафима Саровского и других святых.</p>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card">
+        <div class="card__media">
+          <picture>
+            <source type="image/avif" srcset="assets/img/shrine-analoy-400.avif 400w, assets/img/shrine-analoy-800.avif 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <source type="image/webp" srcset="assets/img/shrine-analoy-400.webp 400w, assets/img/shrine-analoy-800.webp 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <img src="assets/img/shrine-analoy-800.jpg" srcset="assets/img/shrine-analoy-400.jpg 400w, assets/img/shrine-analoy-800.jpg 800w" sizes="(min-width: 900px) 30vw, 100vw" alt="Аналой с иконой и цветами в Свято-Никольском соборе" width="800" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Иконы и мощевики</h3>
+          <p class="card__text">Частицы мощей святителя Николая, Луки Крымского, Димитрия Ростовского и других святых.</p>
+          <a class="link-arrow" href="hram.html#svyatyni">Все святыни</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <picture>
+            <source type="image/avif" srcset="assets/img/shrine-reliquary-400.avif 400w, assets/img/shrine-reliquary-800.avif 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <source type="image/webp" srcset="assets/img/shrine-reliquary-400.webp 400w, assets/img/shrine-reliquary-800.webp 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <img src="assets/img/shrine-reliquary-800.jpg" srcset="assets/img/shrine-reliquary-400.jpg 400w, assets/img/shrine-reliquary-800.jpg 800w" sizes="(min-width: 900px) 30vw, 100vw" alt="Золотой мощевик с частицей мощей в соборе" width="800" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Плащаница и святыни</h3>
+          <p class="card__text">Вышита в мастерской Троице-Сергиевой лавры. Находится в специальной гробнице в центральном приделе.</p>
+          <a class="link-arrow" href="hram.html#svyatyni">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__media">
+          <picture>
+            <source type="image/avif" srcset="assets/img/interior-400.avif 400w, assets/img/interior-800.avif 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <source type="image/webp" srcset="assets/img/interior-400.webp 400w, assets/img/interior-800.webp 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <img src="assets/img/interior-800.jpg" srcset="assets/img/interior-400.jpg 400w, assets/img/interior-800.jpg 800w" sizes="(min-width: 900px) 30vw, 100vw" alt="Интерьер Свято-Никольского собора: иконы, свечи, убранство" width="800" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Икона XVII века</h3>
+          <p class="card__text">В октябре 2026 года собору передали старинный образ — семейную реликвию рода Хабаровых.</p>
+          <a class="link-arrow" href="https://pesochny-eparhia.cerkov.ru/2026/10/26/v-nikolskom-sobore-mosalska-molitvenno-vstretili-den-pamyati-otcov-vii-vselenskogo-sobora/" target="_blank" rel="noopener noreferrer">Новость епархии</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="prihod">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow">Приход</p>
+      <h2 class="section__title">Жизнь вокруг собора</h2>
+      <p class="section__lead">Воскресная школа, библейский кружок, библиотека, социальное служение и паломники.</p>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card card--horizontal">
+        <div class="card__media card__media--wide">
+          <picture>
+            <source type="image/avif" srcset="assets/img/community-social-400.avif 400w, assets/img/community-social-800.avif 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <source type="image/webp" srcset="assets/img/community-social-400.webp 400w, assets/img/community-social-800.webp 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <img src="assets/img/community-social-800.jpg" srcset="assets/img/community-social-400.jpg 400w, assets/img/community-social-800.jpg 800w" sizes="(min-width: 900px) 30vw, 100vw" alt="Священник и сотрудники дома-интерната «Уют» с подарками" width="800" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Социальное служение</h3>
+          <p class="card__text">Приход посещает дом-интернат «Уют» и центр «Сила единства», помогает многодетным семьям и участникам СВО.</p>
+          <a class="link-arrow" href="hram.html#prihod">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="card card--horizontal">
+        <div class="card__media card__media--wide">
+          <picture>
+            <source type="image/avif" srcset="assets/img/community-liturgy-400.avif 400w, assets/img/community-liturgy-800.avif 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <source type="image/webp" srcset="assets/img/community-liturgy-400.webp 400w, assets/img/community-liturgy-800.webp 800w" sizes="(min-width: 900px) 30vw, 100vw">
+            <img src="assets/img/community-liturgy-800.jpg" srcset="assets/img/community-liturgy-400.jpg 400w, assets/img/community-liturgy-800.jpg 800w" sizes="(min-width: 900px) 30vw, 100vw" alt="Священник с книгой и прихожане на богослужении в соборе" width="800" height="1000" loading="lazy">
+          </picture>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Богослужения</h3>
+          <p class="card__text">Литургия, всенощное бдение, молебны и панихиды. Исповедь и часы перед Литургией — с 8:50.</p>
+          <a class="link-arrow" href="raspisanie.html">Расписание</a>
+        </div>
+      </article>
+
+      <article class="card card--text">
+        <div class="card__body">
+          <span class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 4 3.5 8.5 12 13l8.5-4.5L12 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M6.5 11v4.5c0 1.7 2.5 3 5.5 3s5.5-1.3 5.5-3V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="card__title">Воскресная школа</h3>
+          <p class="card__text">Дети 6–13 лет. Занятия по воскресеньям после Литургии, начало в 10:45. Музыкальный кружок и детская библиотека.</p>
+          <a class="link-arrow" href="hram.html#shkola">Как записаться</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper" id="news">
+  <div class="container">
+    <div class="section__head section__head--row">
+      <div>
+        <p class="eyebrow">Новости</p>
+        <h2 class="section__title">Что происходит в соборе</h2>
+      </div>
+      <a class="link-arrow" href="{{VK}}" target="_blank" rel="noopener noreferrer">Все новости во ВКонтакте</a>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-item">
+        <time class="news-item__date" datetime="2026-10-26">26 октября 2026</time>
+        <h3 class="news-item__title">Собору передан образ XVII века</h3>
+        <p class="news-item__text">Икону передал Ярослав Николаевич Хабаров — потомок рода Хабаровых. Образ займёт место в соборе.</p>
+        <a class="link-arrow" href="https://pesochny-eparhia.cerkov.ru/2026/10/26/v-nikolskom-sobore-mosalska-molitvenno-vstretili-den-pamyati-otcov-vii-vselenskogo-sobora/" target="_blank" rel="noopener noreferrer">Читать на сайте епархии</a>
+      </article>
+
+      <article class="news-item">
+        <time class="news-item__date" datetime="2026-10-24">24 октября 2026</time>
+        <h3 class="news-item__title">Панихида в Борисоглебском храме</h3>
+        <p class="news-item__text">Настоятель собора иерей Владислав Береговой совершил заупокойную панихиду на старом кладбище.</p>
+        <a class="link-arrow" href="https://vk.com/wall-117411861_4212" target="_blank" rel="noopener noreferrer">Смотреть во ВКонтакте</a>
+      </article>
+
+      <article class="news-item">
+        <time class="news-item__date" datetime="2026-10">октябрь 2026</time>
+        <h3 class="news-item__title">Дом-интернат «Уют»</h3>
+        <p class="news-item__text">Иерей Владислав Береговой навестил жителей дома-интерната и передал подарки ко Дню пожилого человека.</p>
+        <a class="link-arrow" href="https://vk.com/wall-117411861_4193" target="_blank" rel="noopener noreferrer">Смотреть во ВКонтакте</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="route">
+  <div class="container">
+    <div class="map-block">
+      <div class="map-block__map" role="img" aria-label="Схема: собор в центре Мосальска, на улице Советской">
+        <svg viewBox="0 0 560 420" class="map-svg" aria-hidden="true">
+          <rect width="560" height="420" fill="#eee7d8"/>
+          <path d="M-20 300 180 250 300 280 580 210" stroke="#d8cdb8" stroke-width="34" fill="none"/>
+          <path d="M-20 300 180 250 300 280 580 210" stroke="#f8f3e9" stroke-width="24" fill="none"/>
+          <path d="M120 -20 150 170 120 440" stroke="#d8cdb8" stroke-width="26" fill="none"/>
+          <path d="M120 -20 150 170 120 440" stroke="#f8f3e9" stroke-width="16" fill="none"/>
+          <path d="M300 -20 290 120 330 300 320 440" stroke="#d8cdb8" stroke-width="22" fill="none"/>
+          <path d="M300 -20 290 120 330 300 320 440" stroke="#f8f3e9" stroke-width="12" fill="none"/>
+          <rect x="210" y="170" width="90" height="70" rx="4" fill="#dfd4bf"/>
+          <rect x="210" y="170" width="90" height="70" rx="4" fill="none" stroke="#c9bca3" stroke-width="2"/>
+          <path d="M255 170v70M210 205h90" stroke="#c9bca3" stroke-width="2"/>
+          <circle cx="300" cy="248" r="18" fill="#b9893f" opacity=".22"/>
+          <circle cx="300" cy="248" r="8" fill="#b9893f"/>
+          <path d="M300 248v-20" stroke="#b9893f" stroke-width="3" stroke-linecap="round"/>
+          <text x="318" y="242" font-family="Golos Text, sans-serif" font-size="14" fill="#2f4a3a">Собор</text>
+          <text x="318" y="260" font-family="Golos Text, sans-serif" font-size="12" fill="#5e6a63">Советская, 15А</text>
+          <text x="28" y="330" font-family="Golos Text, sans-serif" font-size="12" fill="#5e6a63">ул. Советская</text>
+          <text x="382" y="208" font-family="Golos Text, sans-serif" font-size="12" fill="#5e6a63">центр города</text>
+        </svg>
+      </div>
+
+      <div class="map-block__body">
+        <p class="eyebrow">Как добраться</p>
+        <h2 class="section__title">Собор в центре города</h2>
+        <p class="section__lead">Советская улица, 15А. Рядом остановки «Автостанция Мосальск» и «Мосальск — Автовокзал, 38».</p>
+        <ul class="contact-list">
+          <li class="contact-item"><span class="contact-item__label">Адрес</span><span class="contact-item__value">{{ADDRESS}}</span></li>
+          <li class="contact-item"><span class="contact-item__label">Телефон</span><span class="contact-item__value"><a href="{{PHONE_HREF}}">{{PHONE}}</a></span></li>
+          <li class="contact-item"><span class="contact-item__label">Часы</span><span class="contact-item__value">Ежедневно, 9:00–13:00</span></li>
+        </ul>
+        <div class="actions-row">
+          <a class="btn btn--primary" href="{{ROUTE}}" target="_blank" rel="noopener noreferrer">Построить маршрут</a>
+          <a class="btn btn--ghost" href="kontakty.html">Все контакты</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,129 @@
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a href="index.html">Главная</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">Контакты</span>
+    </nav>
+    <h1 class="page-hero__title">Контакты и как добраться</h1>
+    <p class="page-hero__lead">Собор в центре Мосальска, на Советской улице. Храм открыт ежедневно с 9:00 до 13:00, богослужения — по расписанию.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="contact-grid">
+      <article class="contact-card">
+        <p class="contact-card__label">Адрес</p>
+        <p class="contact-card__value">{{ADDRESS}}</p>
+        <a class="link-arrow" href="{{MAPS}}" target="_blank" rel="noopener noreferrer">Открыть в Яндекс Картах</a>
+      </article>
+      <article class="contact-card">
+        <p class="contact-card__label">Телефон</p>
+        <p class="contact-card__value"><a href="{{PHONE_HREF}}">{{PHONE}}</a></p>
+        <p class="contact-card__note">Иерей Владислав Береговой</p>
+      </article>
+      <article class="contact-card">
+        <p class="contact-card__label">E-mail</p>
+        <p class="contact-card__value"><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
+        <p class="contact-card__note">Для вопросов о требах и жизни прихода</p>
+      </article>
+      <article class="contact-card">
+        <p class="contact-card__label">ВКонтакте</p>
+        <p class="contact-card__value"><a href="{{VK}}" target="_blank" rel="noopener noreferrer">vk.com/s_nik_s</a></p>
+        <p class="contact-card__note">Новости, расписание, фото</p>
+      </article>
+      <article class="contact-card">
+        <p class="contact-card__label">Часы</p>
+        <p class="contact-card__value">Ежедневно, 9:00–13:00</p>
+        <p class="contact-card__note">Богослужения — по расписанию</p>
+      </article>
+      <article class="contact-card">
+        <p class="contact-card__label">Координаты</p>
+        <p class="contact-card__value">54.489344, 34.981352</p>
+        <p class="contact-card__note">Для навигатора</p>
+      </article>
+    </div>
+
+    <div class="map-block map-block--large">
+      <div class="map-block__map" role="img" aria-label="Схема: собор в центре Мосальска, на улице Советской">
+        <svg viewBox="0 0 720 520" class="map-svg" aria-hidden="true">
+          <rect width="720" height="520" fill="#eee7d8"/>
+          <path d="M-20 380 220 310 400 350 760 260" stroke="#d8cdb8" stroke-width="46" fill="none"/>
+          <path d="M-20 380 220 310 400 350 760 260" stroke="#f8f3e9" stroke-width="32" fill="none"/>
+          <path d="M160 -20 190 210 150 540" stroke="#d8cdb8" stroke-width="34" fill="none"/>
+          <path d="M160 -20 190 210 150 540" stroke="#f8f3e9" stroke-width="22" fill="none"/>
+          <path d="M400 -20 380 160 430 380 410 540" stroke="#d8cdb8" stroke-width="30" fill="none"/>
+          <path d="M400 -20 380 160 430 380 410 540" stroke="#f8f3e9" stroke-width="18" fill="none"/>
+          <rect x="280" y="210" width="120" height="90" rx="5" fill="#dfd4bf"/>
+          <rect x="280" y="210" width="120" height="90" rx="5" fill="none" stroke="#c9bca3" stroke-width="2"/>
+          <path d="M340 210v90M280 255h120" stroke="#c9bca3" stroke-width="2"/>
+          <circle cx="390" cy="315" r="26" fill="#b9893f" opacity=".22"/>
+          <circle cx="390" cy="315" r="11" fill="#b9893f"/>
+          <path d="M390 315v-26" stroke="#b9893f" stroke-width="4" stroke-linecap="round"/>
+          <text x="414" y="306" font-family="Golos Text, sans-serif" font-size="16" fill="#2f4a3a">Свято-Никольский собор</text>
+          <text x="414" y="328" font-family="Golos Text, sans-serif" font-size="14" fill="#5e6a63">Советская, 15А</text>
+          <text x="30" y="420" font-family="Golos Text, sans-serif" font-size="14" fill="#5e6a63">ул. Советская</text>
+          <text x="470" y="252" font-family="Golos Text, sans-serif" font-size="14" fill="#5e6a63">центр города</text>
+          <text x="470" y="420" font-family="Golos Text, sans-serif" font-size="14" fill="#5e6a63">к автостанции</text>
+        </svg>
+      </div>
+      <div class="map-block__body">
+        <p class="eyebrow">Маршрут</p>
+        <h2 class="section__title">Как добраться</h2>
+        <div class="prose">
+          <p><strong>На машине:</strong> Мосальск находится в 80 км к западу от Калуги и в 18 км от трассы А101 Москва — Рославль. Собор — в центре, на Советской улице.</p>
+          <p><strong>На автобусе:</strong> до автостанции Мосальска, далее пешком или на такси до Советской улицы. Рядом остановки «Автостанция Мосальск» и «Мосальск — Автовокзал, 38».</p>
+          <p><strong>На поезде:</strong> ближайшая железнодорожная станция — Барятинская, около 42 км.</p>
+        </div>
+        <div class="actions-row">
+          <a class="btn btn--primary" href="{{ROUTE}}" target="_blank" rel="noopener noreferrer">Построить маршрут</a>
+          <a class="btn btn--ghost" href="{{MAPS}}" target="_blank" rel="noopener noreferrer">Открыть карточку</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="container">
+    <div class="section__head">
+      <p class="eyebrow">Вопросы</p>
+      <h2 class="section__title">Если вы впервые</h2>
+      <p class="section__lead">Коротко о том, что чаще всего спрашивают.</p>
+    </div>
+
+    <div class="faq">
+      <details class="faq__item">
+        <summary>Как подать записку о здравии или упокоении?</summary>
+        <p>Записки подают в свечной лавке при храме. Если не знаете, как записать имена, спросите у служителя — помогут. Записки о здравии и упокоении воинов принимаются бесплатно, в том числе на сорокоуст.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Можно ли прийти с детьми?</summary>
+        <p>Да. В соборе есть детский уголок с крупным конструктором. Для детей 6–13 лет работает воскресная школа — занятия по воскресеньям после Литургии, начало в 10:45.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Что взять с собой?</summary>
+        <p>Для записки — имена и, если нужно, уточнение «о здравии» или «об упокоении». Для первого визита достаточно скромной одежды и уважительного настроя. Если сомневаетесь, спросите у служителя.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Где оставить машину?</summary>
+        <p>В центре Мосальска можно найти место на улице; в праздничные дни лучше приехать заранее.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--green">
+  <div class="container cta">
+    <div>
+      <p class="eyebrow eyebrow--light">Связаться</p>
+      <h2 class="section__title">Есть вопрос?</h2>
+      <p class="section__lead">Позвоните или напишите в группу ВКонтакте — там же актуальное расписание и новости.</p>
+    </div>
+    <div class="actions-row">
+      <a class="btn btn--gold" href="{{PHONE_HREF}}">Позвонить</a>
+      <a class="btn btn--ghost-light" href="{{VK}}" target="_blank" rel="noopener noreferrer">Написать в ВК</a>
+    </div>
+  </div>
+</section>
